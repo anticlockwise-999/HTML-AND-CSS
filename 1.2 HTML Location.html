@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jakaria's website</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+  <h1 id="empty"></h1>
+  <button type="button" onclick="myPosition()">Get location</button>
+   <!-- myposition is a function taking from script  -->
+   
+  <script>
+    var h= document.getElementById("empty");
+
+    function  myPosition(){
+      if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showlocation);
+      }
+    }
+    function showlocation(position){
+      h.innerHTML="long: " + position.coords.longitude;
+    }
+  </script>
+</body> 
+</html>
+ 
