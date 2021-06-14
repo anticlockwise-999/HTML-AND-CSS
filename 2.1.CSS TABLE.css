@@ -39,4 +39,60 @@
   </div>
  </body> 
 </html>
+
+
+
+<style>
+  body{
+  background : url("https://static3.srcdn.com/wordpress/wp-content/uploads/2021/05/The-Batman-Calendar-Cover-1.jpg ");
+  background-size: 1300px 750px; 
+  background-repeat: no-repeat;
+  background-attachment: color;
+  color: red;
+}
+.header a{
+  color: white;
+  border: 2px solid black;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding: 25px;
+}
+.navbar{
+  max-width: 500px;
+  border: 15px solid green;
+  margin: auto;
+  background-color: light gray;
+  padding: 15px;
+  font-family: 'Lobster', cursive; 
+
+}
+.mytable{
+  padding: 20px;
+  background-color: cyan;
+  margin-top: 20px;
+}
+.tableContainer{
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  background-color: black;
+}
+.tableContainer table{
+  border: 2px solid blue;
+  border-collapse: collapse;
+
+}
+
+.tableContainer table th{
+  border: 2px solid cyan;
+  padding: 15px;
+}
+
+.tableContainer table td{
+  border: 2px solid cyan;
+  
+}
+</style>
  
