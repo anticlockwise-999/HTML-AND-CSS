@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jakaria's website</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+  <div class="header">
+    <a href="">Mahi</a>
+  </div>
+  <div class ="navbar">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ip
+      sam dignissimos recusandae natus dolorem ven
+      iam delectus ea sint dolor voluptatibus labore,
+       accusantium nostrum pariatur possimus quasi, volup
+      tates, adipisci et? Sit, sapiente.</p><i class="fa fa-cloud"></i>
+
+      <a href="#" id="innerLink">Click here to read more</a>
+
+  </div>
+  <div class="mytable">
+    <div class="tableContainer">
+      <table>
+      
+        <tr>
+          <th>one</th>                                 
+          <th>two</th>
+          <th>three</th>
+          <th>four</th>      
+        </tr>
+        <tr>
+          <td>Caprio</td>
+          <td>Pitt</td>
+          <td>Cruise</td>
+          <td>Niro</td>
+        </tr>
+      </table>
+  </div>
+ </body> 
+</html>
+ 
