@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+
+        .header{
+            border: 2px solid red;
+            padding: 10px;
+        }
+        .left{
+            border: 2px solid red;
+            float: left;
+            width: 30%;
+            padding: 10px;
+        
+        }
+        .main{
+            border: 2px solid red;
+            float: right;
+            width: 70%;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+    <h1>this is a heading</h1>
+    </div>
+
+    <div class="left">
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam ab enim quaerat at minima blanditiis fugit natus, eius dolorem nemo ipsa ullam quos illum officiis, incidunt eos? Reiciendis, et amet?</P>
+    </div>
+    <div class="main">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptatibus veritatis unde. Mollitia porro nam assumenda voluptas laborum, animi aliquid quae veniam ipsum veritatis accusamus saepe neque quasi at nulla eius, voluptatum suscipit modi, provident ipsa natus tenetur aliquam id! Esse assumenda officia consequatur fugit sit non reiciendis autem eos dolores adipisci dolorem quidem, ipsam deleniti nemo debitis iure. Fugit adipisci nulla deserunt cupiditate ipsam maxime unde aut suscipit, ut dolor neque magni tempore. Distinctio, cum explicabo. Atque non beatae necessitatibus, dolore sint asperiores molestiae quia odio. Amet nemo nihil atque ratione ad dicta culpa voluptatum facere excepturi rerum. Excepturi!</p>
+    </div>
+    
+</body>
+</html>
