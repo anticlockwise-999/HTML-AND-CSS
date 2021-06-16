@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+    <style>
+        .container mb-3{
+    border: 3px solid red;
+}
+        .col-7{
+            border: 3px solid blue ; 
+            
+
+        }
+        .col-5{
+            border: 3px solid blue ;
+
+        }
+        .col-9{
+            border: 3px solid blue ;
+        }
+        .col-3{
+            border: 3px solid blue ;
+        }
+
+    </style>
+  </head>
+
+  <!-- Making Layout using Rows and columns -->
+
+  <body>
+     <div class="container mb-3">  <!-- mb= margin bottom (1 to 5)  -->
+      <div class="row">
+          <div class="col-7 p-3 bg-warning"> <!-- padding = 3 rem or 48px -->
+              this is column 1
+          </div>
+          <div class="col-5 p-3 bg-success">
+              this is 2nd column
+          </div>
+      </div>
+    
+
+    <div class="row">
+        <div class="col-9">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsum nulla quam voluptate dolorem, pariatur illo cupiditate beatae quod velit, facere eos dolorum molestias similique sit numquam eum deleniti, sint perferendis error! Provident illum rerum pariatur quo, incidunt perferendis deserunt corrupti exercitationem alias totam doloremque obcaecati animi sint eos at hic a facere quae soluta. Cumque delectus, mollitia at, minus asperiores, enim laborum maxime consequuntur amet aut eum cupiditate ratione molestias. Sapiente possimus quis mollitia, distinctio blanditiis maxime facere accusamus repellendus praesentium iusto tenetur fuga dolore. Perferendis sit et ullam, architecto nulla, est non rem repudiandae sint quod soluta ut excepturi atque impedit hic fuga repellendus quas laudantium accusantium laborum reiciendis mollitia odio eaque exercitationem. Consequatur reprehenderit enim assumenda. Sapiente magnam quia exercitationem mollitia, laboriosam excepturi consequuntur animi dignissimos repudiandae minima? Itaque, voluptatibus sint. Obcaecati natus amet at numquam ex minus voluptas inventore, eveniet, nisi corporis ipsa modi blanditiis reiciendis fugiat eaque. Rem quis maiores saepe. Totam quisquam reprehenderit itaque facilis dolorem consectetur consequatur unde quaerat delectus necessitatibus aperiam corrupti aspernatur a, ipsa tenetur tempore distinctio commodi adipisci repudiandae exercitationem perferendis deleniti esse earum eveniet! Illum error explicabo autem, reprehenderit quisquam cumque, nihil reiciendis facilis architecto repudiandae voluptates non molestiae! Doloribus aperiam eum eaque laudantium maiores, quia soluta tenetur, ut aliquam asperiores quo. Porro quod architecto doloremque tempore non nulla est animi autem perferendis. Aut error a aperiam at ab reprehenderit eum veritatis unde quo rem. Iure quas quos perferendis ea minima officia incidunt dignissimos nesciunt, facere rem nobis atque.
+        </div>
+
+        <div class="col-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id minima nulla necessitatibus? Animi ipsam natus, culpa minus a assumenda?
+        </div>
+
+    </div>
+</div>
+
+<!-- Opened the table from getbootstrap -->
+<table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry</td>
+        <td>the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Image section -->
+  <div class="container">
+      <div class="row">
+          <div class="col">
+            <img src="/img/jpg.jpg" class="img-thumbnail" alt="Responsive image">
+          </div>
+          <div class="col">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, vel fuga odit amet, tempora temporibus provident sed sequi ex esse nulla, qui corrupti nisi fugit! At excepturi architecto labore ducimus neque assumenda, quis explicabo ullam iste nobis ipsa quae magni illo nihil sit tenetur quasi? Nisi at nobis adipisci libero provident. Vitae molestiae nisi nostrum animi quia impedit recusandae possimus labore et eligendi odit obcaecati cupiditate eius eveniet laboriosam itaque, excepturi consequuntur, repellendus qui. Dolorum illum, fuga repellat voluptatibus suscipit aspernatur eos nulla exercitationem, laudantium soluta eum. Illo unde aspernatur cumque! Perspiciatis minus voluptatibus dicta, accusamus et ducimus ea dolor?</p>
+          </div>
+      </div>
+  </div>
+
+  <!-- this jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+
+  <!-- this is alert -->
+  <div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+  </div>
+
+  <!-- this is button -->
+  <div class="container">
+
+    <button type="button" class="btn btn-outline-info">Info</button>
+  </div>
+
+  <!-- this is badge -->
+  <div class="container">
+    <p>Updates <span class="w3-badge">9</span></p>
+
+  </div>
+
+  <!-- progress bar -->
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+  </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
